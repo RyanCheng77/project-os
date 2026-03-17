@@ -1,0 +1,5 @@
+interface:
+  display_name: "Design System UI"
+  short_description: "Improve hierarchy, clarity, component logic, and UI semantics"
+  brand_color: "#A0D7FF"
+  default_prompt: "Use $design-system-ui to improve this product's interface hierarchy, component semantics, and task clarity."

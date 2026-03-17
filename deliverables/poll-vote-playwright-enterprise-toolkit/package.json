@@ -1,0 +1,23 @@
+{
+  "name": "poll-vote-tests",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:update": "playwright test --update-snapshots",
+    "test:notify": "playwright test && node scripts/notify-feishu.js",
+    "notify": "node scripts/notify-feishu.js",
+    "notify:test": "node scripts/test-feishu.js",
+    "setup:feishu": "bash scripts/setup-feishu.sh"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "playwright": "^1.48.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}

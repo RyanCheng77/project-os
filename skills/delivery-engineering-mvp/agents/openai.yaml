@@ -1,0 +1,5 @@
+interface:
+  display_name: "Delivery Engineering MVP"
+  short_description: "Ship the main path, mocks, fallback, and verification"
+  brand_color: "#6FB3FF"
+  default_prompt: "Use $delivery-engineering-mvp to land the next MVP closure with a stable main path, fallback behavior, and quick verification."

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Archive PMO Sync"
+  short_description: "Sync docs, decisions, progress, and unified project memory"
+  brand_color: "#C0A8FF"
+  default_prompt: "Use $archive-pmo-sync to update project memory, sync decisions, and produce a unified current-state summary."

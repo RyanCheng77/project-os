@@ -1,0 +1,5 @@
+interface:
+  display_name: "Zero to One Project Driver"
+  short_description: "Drive 0-to-1 MVP delivery with parallel role coordination"
+  brand_color: "#6FB3FF"
+  default_prompt: "Use $zero-to-one-project-driver to push this project from idea to MVP with parallel roles, document syncing, and small verifiable closures."

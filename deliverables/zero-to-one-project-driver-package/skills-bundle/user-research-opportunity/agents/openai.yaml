@@ -1,0 +1,5 @@
+interface:
+  display_name: "User Research Opportunity"
+  short_description: "Find user opportunities, evidence, methods, and insights"
+  brand_color: "#5EC8A5"
+  default_prompt: "Use $user-research-opportunity to identify the key user opportunities, research inputs, and evidence we need for this project."

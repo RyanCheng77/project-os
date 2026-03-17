@@ -1,0 +1,5 @@
+interface:
+  display_name: "Growth Go-to-Market"
+  short_description: "Shape positioning, messaging, launch, and growth motion"
+  brand_color: "#7BE0B2"
+  default_prompt: "Use $growth-go-to-market to turn this product into a clear positioning, launch, and growth story."

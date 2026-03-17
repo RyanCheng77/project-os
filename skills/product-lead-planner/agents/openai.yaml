@@ -1,0 +1,5 @@
+interface:
+  display_name: "Product Lead Planner"
+  short_description: "Plan MVP scope, priorities, acceptance, and next steps"
+  brand_color: "#7AA2FF"
+  default_prompt: "Use $product-lead-planner to turn this request into a scoped MVP plan with priorities, tradeoffs, and acceptance criteria."

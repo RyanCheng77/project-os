@@ -1,0 +1,5 @@
+interface:
+  display_name: "Product Ops Scale"
+  short_description: "Scale product delivery with process, tools, and feedback flows"
+  brand_color: "#4AB7D8"
+  default_prompt: "Use $product-ops-scale to design the next lightweight operating system for this product as it grows beyond MVP."

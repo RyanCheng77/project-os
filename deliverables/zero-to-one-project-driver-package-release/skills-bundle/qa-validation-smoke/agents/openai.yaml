@@ -1,0 +1,5 @@
+interface:
+  display_name: "QA Validation Smoke"
+  short_description: "Check the main flow, failures, empty states, and regressions"
+  brand_color: "#FFB36F"
+  default_prompt: "Use $qa-validation-smoke to define and run the smallest useful smoke checks for this project's main flow."
