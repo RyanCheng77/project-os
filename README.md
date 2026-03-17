@@ -40,6 +40,13 @@ Start with these entry points:
 If you want the fastest path to reuse, begin with the release bundle in `deliverables/zero-to-one-project-driver-package-release/`.  
 如果你想最快复用这套体系，建议先从 `deliverables/zero-to-one-project-driver-package-release/` 开始。
 
+## Showcase | 截图预览
+
+Starter repo template homepage preview:  
+Starter repo 模板首页预览：
+
+![Starter Repo Template Preview](assets/screenshots/starter-repo-template-home.png)
+
 ## Visual Map | 结构图
 
 ```mermaid
