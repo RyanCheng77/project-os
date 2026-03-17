@@ -13,7 +13,7 @@
 ### 影响
 
 - 后续结构、文档、打包逻辑优先在这里整理
-- `poll-vote/toolkits/...` 只作为业务内分发副本看待
+- 项目内复制目录只作为分发副本看待
 
 ## 2026-03-17 - 将 `zero-to-one-project-driver-package-release/` 定义为稳定分享版
 

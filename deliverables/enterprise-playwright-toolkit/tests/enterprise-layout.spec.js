@@ -2,11 +2,11 @@ import { test, expect } from '@playwright/test';
 import { LayoutChecker } from './utils/layout-checker.js';
 
 /**
- * Poll-Vote 项目专用布局测试
- * 针对投票系统的特定组件和交互进行测试
+ * 企业级页面布局测试
+ * 针对复杂页面组件和交互进行测试
  */
 
-test.describe('Poll-Vote 响应式布局测试', () => {
+test.describe('Enterprise 响应式布局测试', () => {
   let checker;
 
   test.beforeEach(async ({ page }) => {
@@ -33,7 +33,7 @@ test.describe('Poll-Vote 响应式布局测试', () => {
       await expect(audioToggle).toBeVisible();
     }
 
-    // 检查投票状态按钮
+    // 检查状态按钮
     const voteStatus = page.locator('#navVoteStatus');
     if (await voteStatus.count() > 0) {
       const voteStatusBox = await voteStatus.boundingBox();
@@ -61,7 +61,7 @@ test.describe('Poll-Vote 响应式布局测试', () => {
     const heroDesc = page.locator('.hero-desc');
     await expect(heroDesc).toBeVisible();
 
-    // 检查投票按钮
+    // 检查主 CTA 按钮
     const voteCta = page.locator('#voteToggleBtn');
     if (await voteCta.count() > 0) {
       await expect(voteCta).toBeVisible();
@@ -168,7 +168,7 @@ test.describe('Poll-Vote 响应式布局测试', () => {
           }
         }
 
-        // 检查投票按钮
+        // 检查主 CTA 按钮
         const voteBtn = page.locator('.detail-vote-btn');
         if (await voteBtn.count() > 0) {
           await expect(voteBtn).toBeVisible();
@@ -339,7 +339,7 @@ test.describe('Poll-Vote 响应式布局测试', () => {
     await page.waitForTimeout(500);
 
     // 全页面截图
-    await expect(page).toHaveScreenshot('poll-vote-full-page.png', {
+    await expect(page).toHaveScreenshot('enterprise-full-page.png', {
       fullPage: true,
       animations: 'disabled',
       maxDiffPixels: 100

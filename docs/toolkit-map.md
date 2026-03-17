@@ -85,16 +85,16 @@
 - 截图回归
 - 结果分析
 
-### 5. `deliverables/poll-vote-playwright-enterprise-toolkit/`
+### 5. `deliverables/enterprise-playwright-toolkit/`
 
 定位：
 
-- 从业务项目抽出来的企业版 Playwright 测试体系
+- 更完整的企业版 Playwright 测试体系
 
 负责：
 
-- 更贴近现有业务结构的企业测试方案
-- 作为通用 Playwright toolkit 的来源样本之一
+- 更复杂的测试组织、通知和结果分析方案
+- 作为通用 Playwright toolkit 的增强版本之一
 
 ## 三、嵌入式模块关系
 
@@ -111,7 +111,7 @@
 
 ## 四、业务副本
 
-### `poll-vote/toolkits/project-operating-system/zero-to-one-project-driver-package/`
+### `toolkits/project-operating-system/zero-to-one-project-driver-package/`
 
 定位：
 
@@ -119,7 +119,7 @@
 
 说明：
 
-- 用于业务内接入和使用
+- 用于项目内接入和使用
 - 不建议作为主维护源继续演进
 
 ## 推荐接入方式

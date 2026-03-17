@@ -77,20 +77,20 @@
 - 需要给新项目快速接入多端布局检测
 - 想把测试逻辑复用到不同业务项目
 
-## 5. Poll Vote Playwright Enterprise Toolkit
+## 5. Enterprise Playwright Toolkit
 
 路径：
 
-- `poll-vote-playwright-enterprise-toolkit/`
+- `enterprise-playwright-toolkit/`
 
 定位：
 
-- 业务导出的企业版 Playwright 测试体系
+- 高级版 Playwright 测试体系
 
 适合场景：
 
-- 需要参考一个更贴近真实业务的测试组织方式
-- 需要复用通知、脚本和业务页验证经验
+- 需要参考更完整的企业级测试组织方式
+- 需要复用通知、脚本和验证流程经验
 
 ## 推荐选择方式
 
@@ -100,7 +100,7 @@
 - 直接发包给别人，用 `zero-to-one-project-driver-package-release`
 - 起新项目骨架，用 `starter-repo-template`
 - 补页面响应式验证，用 `playwright-responsive-toolkit`
-- 参考业务化测试体系，用 `poll-vote-playwright-enterprise-toolkit`
+- 参考更完整的企业级测试体系，用 `enterprise-playwright-toolkit`
 
 ## 当前维护建议
 

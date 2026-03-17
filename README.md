@@ -73,10 +73,10 @@ Minimal starter repo scaffold for launching new projects.
 Generic responsive testing toolkit for layout and mobile validation.  
 用于布局和移动端验证的通用响应式测试工具包。
 
-### `deliverables/poll-vote-playwright-enterprise-toolkit/`
+### `deliverables/enterprise-playwright-toolkit/`
 
-Enterprise-derived Playwright toolkit extracted from a real project for reuse and adaptation.  
-从真实项目抽取出的企业版 Playwright 工具包，可用于复用和二次改造。
+Advanced Playwright toolkit for more complex validation workflows and enterprise-style test organization.  
+适合更复杂验证流程和企业级测试组织方式的高级 Playwright 工具包。
 
 ## Source and Release Boundaries | 主维护源与发布边界
 

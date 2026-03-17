@@ -2,11 +2,11 @@ import { test, expect } from '@playwright/test';
 import { LayoutChecker } from './utils/layout-checker.js';
 
 /**
- * Poll-Vote 移动端专项测试
+ * 企业级移动端专项测试
  * 专门测试移动设备上的布局和交互
  */
 
-test.describe('Poll-Vote 移动端布局测试', () => {
+test.describe('Enterprise 移动端布局测试', () => {
   let checker;
 
   test.beforeEach(async ({ page }) => {
@@ -61,7 +61,7 @@ test.describe('Poll-Vote 移动端布局测试', () => {
         expect(titleBox.right).toBeLessThanOrEqual(viewport.width + 5);
       }
 
-      // 检查投票按钮在移动端的大小
+      // 检查主 CTA 按钮在移动端的大小
       const voteBtn = page.locator('#voteToggleBtn');
       if (await voteBtn.count() > 0) {
         const btnBox = await voteBtn.boundingBox();
@@ -196,7 +196,7 @@ test.describe('Poll-Vote 移动端布局测试', () => {
             }
           }
 
-          // 检查投票按钮
+          // 检查主 CTA 按钮
           const voteBtn = page.locator('.detail-vote-btn');
           if (await voteBtn.count() > 0) {
             const btnBox = await voteBtn.boundingBox();
@@ -322,7 +322,7 @@ test.describe('Poll-Vote 移动端布局测试', () => {
 
       await page.waitForTimeout(500);
 
-      await expect(page).toHaveScreenshot('poll-vote-mobile.png', {
+      await expect(page).toHaveScreenshot('enterprise-mobile.png', {
         fullPage: true,
         animations: 'disabled',
         maxDiffPixels: 100

@@ -1,10 +1,10 @@
-# Poll-Vote 项目操作工具包
+# Project Integration Toolkit
 
-这是一组为 `poll-vote` 项目补充的项目推进与协作工具，不替代现有 Playwright 测试体系，而是和它并行工作。
+这是一组用于补充项目推进与协作的工具，不替代现有 Playwright 测试体系，而是和它并行工作。
 
 ## 这套工具解决什么问题
 
-`poll-vote` 现在已经有一套很强的企业级 Playwright 自动化测试能力，适合做：
+现有企业级 Playwright 自动化测试能力适合做：
 
 - 多设备布局验证
 - 视觉回归
@@ -67,7 +67,7 @@
 
 ## 推荐接入方式
 
-如果后面要把这套工具更深地接到 `poll-vote` 里，建议按这个顺序：
+如果后面要把这套工具更深地接到某个具体项目里，建议按这个顺序：
 
 1. 先让团队读懂这套 bundle，不急着全量启用
 2. 先从 `zero-to-one-project-driver` + `archive-pmo-sync` 开始

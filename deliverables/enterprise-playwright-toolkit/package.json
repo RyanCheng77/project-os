@@ -1,5 +1,5 @@
 {
-  "name": "poll-vote-tests",
+  "name": "enterprise-playwright-tests",
   "version": "1.0.0",
   "type": "module",
   "scripts": {

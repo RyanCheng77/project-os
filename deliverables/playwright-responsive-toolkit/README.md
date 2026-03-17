@@ -1,6 +1,6 @@
 # Playwright Responsive Toolkit
 
-这是从 `poll-vote` 项目的企业级 Playwright 测试体系抽象出来的通用版工具包。
+这是从一套更完整的企业级 Playwright 测试体系抽象出来的通用版工具包。
 
 ## 目标
 

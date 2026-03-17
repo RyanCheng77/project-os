@@ -27,7 +27,7 @@
 在项目根目录创建 `.env` 文件：
 
 ```bash
-cd /path/to/poll-vote
+cd /path/to/your-app
 echo "FEISHU_WEBHOOK=你的webhook地址" > .env
 ```
 
@@ -74,7 +74,7 @@ FEISHU_WEBHOOK=你的地址 npm run notify
 
 ### 全部通过时
 ```
-📊 Poll-Vote 自动化测试结果
+📊 自动化测试结果
 
 状态: ✅ 全部通过
 总计: 570 个测试
@@ -87,7 +87,7 @@ FEISHU_WEBHOOK=你的地址 npm run notify
 
 ### 有失败时
 ```
-📊 Poll-Vote 自动化测试结果
+📊 自动化测试结果
 
 状态: ❌ 有失败
 总计: 570 个测试
@@ -96,8 +96,8 @@ FEISHU_WEBHOOK=你的地址 npm run notify
 通过率: 99.1%
 
 失败的测试:
-1. poll-vote-layout-spec-js-iPhone-16-Pro-Max
-2. poll-vote-mobile-spec-js-Samsung-Galaxy-S23
+1. enterprise-layout-spec-js-iPhone-16-Pro-Max
+2. enterprise-mobile-spec-js-Samsung-Galaxy-S23
 3. ...
 
 查看详细报告: npm run test:report
@@ -201,11 +201,11 @@ FEISHU_WEBHOOK=https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxxxx
 
 ```bash
 # 1. 启动开发服务器
-cd /path/to/poll-vote/server
+cd /path/to/your-app/server
 npm start
 
 # 2. 新开终端，运行测试并发送通知
-cd /path/to/poll-vote
+cd /path/to/your-app
 npm run test:notify
 
 # 3. 查看飞书群消息

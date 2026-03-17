@@ -133,7 +133,7 @@ function generateReport(testData) {
   const { results } = testData;
   const passRate = ((results.passed / results.total) * 100).toFixed(1);
 
-  let report = '# 📊 Poll-Vote 测试结果分析报告\n\n';
+  let report = '# 📊 自动化测试结果分析报告\n\n';
   report += `生成时间: ${new Date().toLocaleString('zh-CN')}\n\n`;
 
   report += '## 测试统计\n\n';

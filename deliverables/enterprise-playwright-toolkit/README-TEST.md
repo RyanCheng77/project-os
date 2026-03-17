@@ -1,6 +1,6 @@
-# Poll-Vote 项目自动化测试方案
+# 企业级自动化测试方案
 
-专门为 AI 实践应用投票系统定制的响应式布局测试套件。
+面向复杂页面和多设备场景的响应式布局测试套件。
 
 ## 🎯 测试覆盖
 
@@ -16,10 +16,10 @@
 
 ### 测试的关键组件
 - ✅ 导航栏（固定定位、按钮对齐）
-- ✅ Hero 区域（标题、环形动画、投票按钮）
+- ✅ Hero 区域（标题、环形动画、主 CTA 按钮）
 - ✅ 作品卡片网格（间距、对齐）
 - ✅ 卡片翻转动画区域
-- ✅ 作品详情页（媒体区域、投票按钮）
+- ✅ 作品详情页（媒体区域、主 CTA 按钮）
 - ✅ 作者信息（头像、名称）
 
 ### 测试设备（30 种）
@@ -65,7 +65,7 @@
 ### 1. 安装依赖
 
 ```bash
-cd /path/to/poll-vote
+cd /path/to/your-app
 npm install
 npx playwright install
 ```
@@ -121,11 +121,11 @@ npm run test:report
 
 ## 📋 测试文件说明
 
-### `tests/poll-vote-layout.spec.js`
+### `tests/enterprise-layout.spec.js`
 主要的响应式布局测试，包含 10 个测试用例：
 
 1. **导航栏布局检测** - 检查导航栏固定定位、按钮对齐
-2. **Hero 区域布局检测** - 检查标题、副标题、投票按钮、环形动画
+2. **Hero 区域布局检测** - 检查标题、副标题、主 CTA 按钮、环形动画
 3. **作品卡片网格布局检测** - 检查卡片间距、对齐、溢出
 4. **作品详情页布局检测** - 检查详情页打开后的布局
 5. **卡片翻转动画区域检测** - 检查翻转卡片、导航箭头
@@ -134,7 +134,7 @@ npm run test:report
 8. **按钮触摸目标大小检测** - 确保所有按钮至少 40x40px
 9. **全页面截图对比** - 视觉回归测试
 
-### `tests/poll-vote-mobile.spec.js`
+### `tests/enterprise-mobile.spec.js`
 移动端专项测试，包含 9 个测试用例：
 
 1. **移动端导航栏适配** - 检查导航栏在小屏幕上的表现
@@ -224,7 +224,7 @@ A: 这可能是正常的，如果你修改了设计。运行 `npm run test:updat
 ### Q: 测试太慢？
 A: 可以只运行特定的测试文件：
 ```bash
-npx playwright test poll-vote-layout
+npx playwright test enterprise-layout
 ```
 
 ### Q: 如何跳过某个测试？

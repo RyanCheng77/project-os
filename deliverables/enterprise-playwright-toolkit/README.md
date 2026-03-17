@@ -1,6 +1,6 @@
-# Poll-Vote 自动化测试套件
+# Enterprise Playwright Testing Toolkit
 
-专为 AI 实践应用投票系统定制的响应式布局自动化测试方案。
+面向复杂页面验证场景的企业级 Playwright 自动化测试方案。
 
 ## ✨ 特性
 
@@ -14,7 +14,7 @@
 
 ```bash
 # 1. 安装依赖
-cd deliverables/poll-vote-playwright-enterprise-toolkit
+cd deliverables/enterprise-playwright-toolkit
 npm install
 npx playwright install
 
@@ -47,7 +47,7 @@ npm run test:notify
 ### 19 个测试用例
 
 - 导航栏布局（固定定位、按钮对齐）
-- Hero 区域（标题、动画、投票按钮）
+- Hero 区域（标题、动画、主 CTA 按钮）
 - 作品卡片网格（间距、对齐）
 - 卡片翻转动画
 - 作品详情页
@@ -74,7 +74,7 @@ npm run test:notify
 测试完成后，你会收到这样的消息：
 
 ```
-📊 Poll-Vote 自动化测试结果
+📊 自动化测试结果
 
 状态: ✅ 全部通过
 总计: 570 个测试

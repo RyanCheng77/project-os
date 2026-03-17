@@ -49,7 +49,7 @@ Project Operating System Toolkit
 主路径：
 
 - `deliverables/playwright-responsive-toolkit/`
-- `deliverables/poll-vote-playwright-enterprise-toolkit/`
+- `deliverables/enterprise-playwright-toolkit/`
 
 作用：
 
@@ -62,7 +62,7 @@ Project Operating System Toolkit
 
 当前处于“独立工具包整理与发布准备阶段”。
 
-已经从业务项目中抽出一批可复用资产，但仓库级入口、项目状态文档、源码与 release 的边界说明还在完善中。
+已经整理出一批可复用资产，但仓库级入口、项目状态文档、源码与 release 的边界说明还在完善中。
 
 ## 当前成功标准
 

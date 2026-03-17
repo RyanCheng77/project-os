@@ -8,7 +8,7 @@
 - role skill framework and bundle usage guide
 - document scaffolding templates for 0-1 projects
 - starter repo template with minimal runnable example
-- generic Playwright responsive toolkit extracted from the enterprise Poll-Vote test system
+- generic Playwright responsive toolkit extracted from a more complete enterprise test system
 - install and scaffold scripts
 
 ### Improved

@@ -133,7 +133,7 @@ function buildMessage(testData) {
     return {
       msg_type: 'text',
       content: {
-        text: `📊 Poll-Vote 测试结果\n\n⚠️ ${testData.message}`
+        text: `📊 自动化测试结果\n\n⚠️ ${testData.message}`
       }
     };
   }
@@ -142,7 +142,7 @@ function buildMessage(testData) {
     return {
       msg_type: 'text',
       content: {
-        text: `📊 Poll-Vote 测试结果\n\n❌ 读取测试结果时出错: ${testData.message}`
+        text: `📊 自动化测试结果\n\n❌ 读取测试结果时出错: ${testData.message}`
       }
     };
   }
@@ -151,7 +151,7 @@ function buildMessage(testData) {
   const passRate = ((results.passed / results.total) * 100).toFixed(1);
   const status = results.failed === 0 ? '✅ 全部通过' : '❌ 有失败';
 
-  let message = `📊 Poll-Vote 自动化测试结果\n\n`;
+  let message = `📊 自动化测试结果\n\n`;
   message += `状态: ${status}\n`;
   message += `总计: ${results.total} 个测试\n`;
   message += `通过: ${results.passed} ✅\n`;
@@ -198,7 +198,7 @@ function buildCardMessage(testData) {
       header: {
         title: {
           tag: 'plain_text',
-          content: '📊 Poll-Vote 自动化测试结果'
+          content: '📊 自动化测试结果'
         },
         template: color
       },
