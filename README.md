@@ -36,6 +36,7 @@ Start with these entry points:
 2. [Toolkit Map](docs/toolkit-map.md)
 3. [Starter Repo Guide](docs/starter-repo-guide.md)
 4. [Release Bundle README](deliverables/zero-to-one-project-driver-package-release/README.md)
+5. [Beginner Guide | 小白使用教程](docs/beginner-guide.md)
 
 If you want the fastest path to reuse, begin with the release bundle in `deliverables/zero-to-one-project-driver-package-release/`.  
 如果你想最快复用这套体系，建议先从 `deliverables/zero-to-one-project-driver-package-release/` 开始。
@@ -173,6 +174,7 @@ This repository separates maintenance layers on purpose:
 - [Decision Log](docs/decision-log.md)
 - [Open Source Readiness](docs/open-source-readiness.md)
 - [Usage Examples](docs/usage-examples.md)
+- [Beginner Guide | 小白使用教程](docs/beginner-guide.md)
 
 ## License | 许可证
 
