@@ -1,93 +1,91 @@
-# Project Operating System Toolkit
+# Project OS
 
-Project Operating System Toolkit is a reusable toolkit workspace for turning proven project delivery practices into shareable assets.
+Project OS is a reusable toolkit for turning proven project delivery practices into shareable assets.
 
-它用来把项目推进方法、角色协作技能、starter repo、以及页面验证能力拆成可复用资产，并逐步整理成适合独立发布的 GitHub 仓库。
+It combines project orchestration, role-based skills, starter repo scaffolds, and Playwright validation workflows in one repository.
 
-## 这个仓库的定位
+## What This Repo Includes
 
-这里不是单一项目源码，而是一个工具包工作区。
+- Project operating system skills for product, research, delivery, QA, archive, design, ops, and GTM collaboration
+- Starter repo scaffolds for launching new projects faster
+- Playwright toolkits for responsive layout and mobile validation
+- Release-ready bundles for internal sharing and handoff
+- Project docs that explain source-of-truth, release boundaries, and packaging decisions
 
-当前目标是把已经在业务项目里验证过的方法和工具，沉淀成三层可独立分发的资产：
+## Who It Is For
 
-- 项目操作系统工具包
-- starter repo 骨架
-- Playwright 响应式验证工具
+- teams starting new AI or product projects
+- builders who want smaller, verifiable project loops
+- teams that want documentation, delivery, and validation to stay aligned
+- teams turning one-off project experience into reusable workflows
 
-## 当前结构
+## Quick Start
+
+Start with these entry points:
+
+1. [Deliverables Index](/Users/ryan/Documents/AI/project-operating-system-toolkit/deliverables/README.md)
+2. [Toolkit Map](/Users/ryan/Documents/AI/project-operating-system-toolkit/docs/toolkit-map.md)
+3. [Starter Repo Guide](/Users/ryan/Documents/AI/project-operating-system-toolkit/docs/starter-repo-guide.md)
+4. [Release Bundle README](/Users/ryan/Documents/AI/project-operating-system-toolkit/deliverables/zero-to-one-project-driver-package-release/README.md)
+
+If you want the fastest path to reuse, begin with the release bundle in `deliverables/zero-to-one-project-driver-package-release/`.
+
+## Repository Map
 
 ```text
-project-operating-system-toolkit/
-├── README.md
-├── docs/
-├── skills/
-└── deliverables/
+project-os/
+├── skills/         # source-of-truth role skills
+├── deliverables/   # reusable packages, starter repos, validation toolkits
+├── docs/           # repository guidance and project memory
+├── CHANGELOG.md
+└── README.md
 ```
 
-### `docs/`
+## Key Packages
 
-负责仓库级说明、方法指南和项目管理文档。
+### `deliverables/zero-to-one-project-driver-package/`
 
-### `skills/`
+Editable source bundle for the project operating system package.
 
-负责项目推进相关的角色 skills 源文件，是工具包方法层的主维护源。
+### `deliverables/zero-to-one-project-driver-package-release/`
 
-### `deliverables/`
+Stable shareable bundle with versioning, changelog, release notes, and installation docs.
 
-负责已经整理出的可分发产物。
+### `deliverables/starter-repo-template/`
 
-当前重点包括：
+Minimal starter repo scaffold for launching new projects.
 
-- `zero-to-one-project-driver-package/`
-  可继续编辑的项目操作系统源码包
-- `zero-to-one-project-driver-package-release/`
-  用于稳定分享和转交的 release 包
-- `starter-repo-template/`
-  新项目起步骨架
-- `playwright-responsive-toolkit/`
-  通用版页面响应式验证工具
-- `poll-vote-playwright-enterprise-toolkit/`
-  从业务项目抽出的企业版 Playwright 测试体系
+### `deliverables/playwright-responsive-toolkit/`
 
-## 源码、发布版、业务副本的关系
+Generic responsive testing toolkit for layout and mobile validation.
 
-为了避免后续整理时混淆，当前按下面的原则理解：
+### `deliverables/poll-vote-playwright-enterprise-toolkit/`
 
-1. `project-operating-system-toolkit/skills/`
-   是 role skills 的主维护源。
+Enterprise-derived Playwright toolkit extracted from a real project for reuse and adaptation.
 
-2. `project-operating-system-toolkit/deliverables/zero-to-one-project-driver-package/`
-   是可继续迭代、可再次打包的源码交付目录。
+## Source and Release Boundaries
 
-3. `project-operating-system-toolkit/deliverables/zero-to-one-project-driver-package-release/`
-   是对内分发用的稳定 release 目录，带版本、changelog、release notes。
+This repository separates maintenance layers on purpose:
 
-4. `poll-vote/toolkits/project-operating-system/zero-to-one-project-driver-package/`
-   是业务项目中的分发副本，不应作为主维护源直接继续演进。
+1. `skills/` is the source of truth for role skills.
+2. `deliverables/zero-to-one-project-driver-package/` is the editable package source.
+3. `deliverables/zero-to-one-project-driver-package-release/` is the stable release bundle.
+4. Business-project copies should not be treated as the primary maintenance source.
 
-## 推荐阅读顺序
+## Current Status
 
-1. `docs/toolkit-map.md`
-2. `docs/project-overview.md`
-3. `docs/progress-archive.md`
-4. `docs/decision-log.md`
-5. `deliverables/README.md`
-6. `deliverables/zero-to-one-project-driver-package-release/README.md`
-7. `docs/open-source-readiness.md`
+- Repository status: public initial release
+- Repository version: `v0.1.0`
+- Latest repository notes: [docs/releases/v0.1.0.md](/Users/ryan/Documents/AI/project-operating-system-toolkit/docs/releases/v0.1.0.md)
 
-## 当前整理重点
+## Documentation
 
-当前这一轮重点不是继续扩工具数量，而是把已有资产整理成清晰的独立工具包体系：
+- [Deliverables Index](/Users/ryan/Documents/AI/project-operating-system-toolkit/deliverables/README.md)
+- [Project Overview](/Users/ryan/Documents/AI/project-operating-system-toolkit/docs/project-overview.md)
+- [Progress Archive](/Users/ryan/Documents/AI/project-operating-system-toolkit/docs/progress-archive.md)
+- [Decision Log](/Users/ryan/Documents/AI/project-operating-system-toolkit/docs/decision-log.md)
+- [Open Source Readiness](/Users/ryan/Documents/AI/project-operating-system-toolkit/docs/open-source-readiness.md)
 
-- 哪些是主维护源
-- 哪些是 release 产物
-- 哪些是业务内复制件
-- 每个工具包适合什么接入时机
-- 后续如何继续发布和收敛
+## License
 
-## 下一步建议
-
-- 给 `deliverables/` 增加统一索引文档
-- 明确每个工具包的版本策略
-- 清理非必要的重复副本和系统文件
-- 为独立发布补压缩与校验脚本
+[MIT](/Users/ryan/Documents/AI/project-operating-system-toolkit/LICENSE)

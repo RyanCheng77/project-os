@@ -18,6 +18,10 @@
   - `SECURITY.md`
   - `.gitignore`
   - `docs/open-source-readiness.md`
+- 将仓库独立初始化并推送到 GitHub：`https://github.com/RyanCheng77/project-os`
+- 补仓库级公开首页 `README.md`
+- 补仓库级 `CHANGELOG.md`
+- 补首个公开版本说明 `docs/releases/v0.1.0.md`
 - 补齐项目级文档：
   - `project-overview.md`
   - `decision-log.md`
@@ -33,6 +37,7 @@
 - 评估是否需要把 `poll-vote/toolkits/...` 的副本同步策略文档化
 - 增加 release 生成与校验脚本
 - 确认 GitHub 仓库名、可见性和最终公开范围
+- 创建仓库级 tag 和 GitHub release
 
 ## 风险与观察
 
@@ -46,3 +51,4 @@
 2. 在发布前统一清理系统文件和冗余内容
 3. 确认是否保留所有企业版 deliverables 一起公开
 4. 视情况补一个简易打包脚本，降低手工发布成本
+5. 为 README 增加截图、示意图或使用案例

@@ -74,3 +74,20 @@
 
 - 仓库更接近可直接发布到 GitHub 的状态
 - 后续只需要再确认仓库名、可见性和最终公开范围
+
+## 2026-03-17 - 将仓库级首发版本定义为 `v0.1.0`
+
+### 背景
+
+仓库本身已经独立发布到 GitHub，但仓库级版本和内部 deliverable 的版本还没有分层定义。
+
+### 决策
+
+将仓库自身的首次公开版本定义为 `v0.1.0`。
+
+内部 release bundle 继续保留自己的版本号，例如 `deliverables/zero-to-one-project-driver-package-release/` 当前使用的 `v1.0.0`。
+
+### 影响
+
+- 仓库级发布和包级发布不会互相混淆
+- 后续可以分别维护 repo changelog 和 deliverable changelog
