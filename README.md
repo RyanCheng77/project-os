@@ -40,6 +40,25 @@ Start with these entry points:
 If you want the fastest path to reuse, begin with the release bundle in `deliverables/zero-to-one-project-driver-package-release/`.  
 如果你想最快复用这套体系，建议先从 `deliverables/zero-to-one-project-driver-package-release/` 开始。
 
+## Visual Map | 结构图
+
+```mermaid
+flowchart LR
+    A["Project OS"] --> B["Skills | 角色协作 skills"]
+    A --> C["Starter Repo | 项目起步骨架"]
+    A --> D["Validation Toolkits | 验证工具包"]
+    A --> E["Release Bundles | 发布包"]
+    A --> F["Docs | 项目文档"]
+
+    B --> B1["Product / Research / Delivery / QA / Archive / Design / Ops / GTM"]
+    C --> C1["starter-repo-template"]
+    D --> D1["playwright-responsive-toolkit"]
+    D --> D2["enterprise-playwright-toolkit"]
+    E --> E1["zero-to-one-project-driver-package"]
+    E --> E2["zero-to-one-project-driver-package-release"]
+    F --> F1["overview / roadmap / decision log / progress archive"]
+```
+
 ## Repository Map | 仓库结构
 
 ```text
@@ -78,6 +97,44 @@ Generic responsive testing toolkit for layout and mobile validation.
 Advanced Playwright toolkit for more complex validation workflows and enterprise-style test organization.  
 适合更复杂验证流程和企业级测试组织方式的高级 Playwright 工具包。
 
+## Usage Examples | 使用示例
+
+### 1. Start a new project | 启动一个新项目
+
+- Use `deliverables/starter-repo-template/` to start with a minimal runnable scaffold.  
+  用 `deliverables/starter-repo-template/` 先起一个最小可运行骨架。
+- Add role skills from the project driver package to define how the project is planned and delivered.  
+  再接入项目推进包里的 role skills，定义项目如何规划和推进。
+- Fill the docs templates before the project becomes too large.  
+  在项目变大之前先把文档模板补起来。
+
+### 2. Reuse the operating system package | 复用项目操作系统包
+
+- Start with `deliverables/zero-to-one-project-driver-package-release/` if you want the most direct handoff path.  
+  如果你想走最直接的交接路径，先从 `deliverables/zero-to-one-project-driver-package-release/` 开始。
+- Install the bundled skills and scaffold project docs into your target repository.  
+  安装其中的 skills，并把项目文档模板初始化到目标仓库里。
+- Use the package as the coordination layer while your actual app code lives elsewhere.  
+  让这套包承担协作和推进层，而你的业务代码继续留在独立仓库里。
+
+### 3. Add validation to an existing UI project | 给已有 UI 项目补验证
+
+- Use `deliverables/playwright-responsive-toolkit/` for a generic setup.  
+  通用验证优先用 `deliverables/playwright-responsive-toolkit/`。
+- Configure `baseURL`, `paths`, and `selectors` for your own pages.  
+  按你的页面配置 `baseURL`、`paths` 和 `selectors`。
+- Run layout and mobile checks before enabling heavier screenshot regression.  
+  先跑布局和移动端验证，再决定要不要开截图回归。
+
+### 4. Use the advanced enterprise toolkit | 使用高级企业版工具包
+
+- Use `deliverables/enterprise-playwright-toolkit/` when you need a more complete testing structure.  
+  如果你需要更完整的测试结构，可以用 `deliverables/enterprise-playwright-toolkit/`。
+- Reuse its scripts, notifications, and reporting patterns as a stronger baseline.  
+  可以复用它的脚本、通知和报告组织方式，作为更强的测试底座。
+- Treat it as a reference implementation and adapt it to your own pages and selectors.  
+  把它当成参考实现，再按你的页面和选择器做适配。
+
 ## Source and Release Boundaries | 主维护源与发布边界
 
 This repository separates maintenance layers on purpose:  
@@ -108,6 +165,7 @@ This repository separates maintenance layers on purpose:
 - [Progress Archive](docs/progress-archive.md)
 - [Decision Log](docs/decision-log.md)
 - [Open Source Readiness](docs/open-source-readiness.md)
+- [Usage Examples](docs/usage-examples.md)
 
 ## License | 许可证
 
