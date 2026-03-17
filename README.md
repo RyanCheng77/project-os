@@ -23,10 +23,10 @@ It combines project orchestration, role-based skills, starter repo scaffolds, an
 
 Start with these entry points:
 
-1. [Deliverables Index](/Users/ryan/Documents/AI/project-operating-system-toolkit/deliverables/README.md)
-2. [Toolkit Map](/Users/ryan/Documents/AI/project-operating-system-toolkit/docs/toolkit-map.md)
-3. [Starter Repo Guide](/Users/ryan/Documents/AI/project-operating-system-toolkit/docs/starter-repo-guide.md)
-4. [Release Bundle README](/Users/ryan/Documents/AI/project-operating-system-toolkit/deliverables/zero-to-one-project-driver-package-release/README.md)
+1. [Deliverables Index](deliverables/README.md)
+2. [Toolkit Map](docs/toolkit-map.md)
+3. [Starter Repo Guide](docs/starter-repo-guide.md)
+4. [Release Bundle README](deliverables/zero-to-one-project-driver-package-release/README.md)
 
 If you want the fastest path to reuse, begin with the release bundle in `deliverables/zero-to-one-project-driver-package-release/`.
 
@@ -76,16 +76,16 @@ This repository separates maintenance layers on purpose:
 
 - Repository status: public initial release
 - Repository version: `v0.1.0`
-- Latest repository notes: [docs/releases/v0.1.0.md](/Users/ryan/Documents/AI/project-operating-system-toolkit/docs/releases/v0.1.0.md)
+- Latest repository notes: [docs/releases/v0.1.0.md](docs/releases/v0.1.0.md)
 
 ## Documentation
 
-- [Deliverables Index](/Users/ryan/Documents/AI/project-operating-system-toolkit/deliverables/README.md)
-- [Project Overview](/Users/ryan/Documents/AI/project-operating-system-toolkit/docs/project-overview.md)
-- [Progress Archive](/Users/ryan/Documents/AI/project-operating-system-toolkit/docs/progress-archive.md)
-- [Decision Log](/Users/ryan/Documents/AI/project-operating-system-toolkit/docs/decision-log.md)
-- [Open Source Readiness](/Users/ryan/Documents/AI/project-operating-system-toolkit/docs/open-source-readiness.md)
+- [Deliverables Index](deliverables/README.md)
+- [Project Overview](docs/project-overview.md)
+- [Progress Archive](docs/progress-archive.md)
+- [Decision Log](docs/decision-log.md)
+- [Open Source Readiness](docs/open-source-readiness.md)
 
 ## License
 
-[MIT](/Users/ryan/Documents/AI/project-operating-system-toolkit/LICENSE)
+[MIT](LICENSE)
