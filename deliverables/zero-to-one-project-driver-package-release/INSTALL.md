@@ -30,6 +30,11 @@ sh install.sh
 $HOME/.codex/skills/
 ```
 
+如果你是通过技能导入器导入目录，而不是运行脚本：
+
+- 请优先选择带顶层 `SKILL.md` 的包目录
+- 如果只想导入单个 skill，请直接选择 `skills-bundle/` 下的对应 skill 目录
+
 ### 方式二：手动复制
 
 ```bash
